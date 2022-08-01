@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap");
+
+:root {
+  --pattern: none;
+  --gradient: var(--early-sunset);
+  --svg-fill: #3d4856;
+  transition: all 0.5s ease-in-out !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gradient);
+  /* background: var(--svg-fill); */
+  /* display: flex; */
+  min-height: 100vh;
+  transition: alL, 0.2s linear !important;
+}
+
+main {
+  background-size: 50px !important;
+  margin: 30px;
+}
+
+svg {
+  width: 50px;
+}
+
+#pattern {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  /* background: var(--gradient); */
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%) inset;
+  transition: all 0.2s ease-in-out;
+  /* transition: all 0.5s cubic-bezier(0.77, 0.2, 0.21, 1.68); */
+}
+
+.fill {
+  fill: var(--svg-fill);
+}
+
+.card {
+  background: var(--svg-fill);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 2px solid rgb(232, 231, 231);
+  /* z-index: -1; */
+}
+
+label {
+  padding: 30px;
+  display: block;
+  color: rgb(232, 231, 231);
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  color: rgb(232, 231, 231);
+  position: relative;
+  z-index: 2;
+}

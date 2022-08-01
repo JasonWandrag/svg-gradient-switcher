@@ -1,0 +1,98 @@
+:root {
+  --early-sunset: linear-gradient(
+    to right,
+    #0582ca,
+    #0089cd,
+    #008fd1,
+    #0096d3,
+    #009cd6,
+    #00a1d7,
+    #00a7d8,
+    #00acd8,
+    #00b2d7,
+    #00b8d4,
+    #00bdd0,
+    #00c2cc
+  );
+  --early-sunrise: linear-gradient(
+    to right,
+    #00dbab,
+    #39dfa4,
+    #55e39d,
+    #6be796,
+    #7fea8f,
+    #90ed89,
+    #a1ef83,
+    #b1f17e,
+    #c3f379,
+    #d5f575,
+    #e7f772,
+    #f9f871
+  );
+  --vibrant-shadow: linear-gradient(
+    to right,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  --valentines-day: linear-gradient(
+    to right,
+    #f94444,
+    #f02d71,
+    #d23799,
+    #a24cb6,
+    #5c5cc3
+  );
+  --gypsy-owl: linear-gradient(
+    to right,
+    #222222,
+    #332f44,
+    #453b67,
+    #5c468b,
+    #7650af,
+    #855abd,
+    #9465ca,
+    #a470d8,
+    #a77fd3,
+    #aa8dcd,
+    #ae9bc7,
+    #b2a8c0
+  );
+  --digital-pander: linear-gradient(
+    to bottom,
+    #3d3d3d,
+    #41414b,
+    #42465a,
+    #3e4c6a,
+    #33537a,
+    #2c5986,
+    #205f91,
+    #00669d,
+    #006da8,
+    #0174b3,
+    #027bbf,
+    #0582ca
+  );
+  --mango-blast: linear-gradient(
+    to right,
+    #f8333c,
+    #fe572f,
+    #ff7521,
+    #ff9114,
+    #fcab10
+  );
+}
+
+.test {
+  /* Mango */
+  background-image: linear-gradient(
+    to right,
+    #f8333c,
+    #fe572f,
+    #ff7521,
+    #ff9114,
+    #fcab10
+  );
+}
